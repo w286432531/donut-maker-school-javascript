@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display&family=Roboto:wght@400;700&family=Sacramento&display=swap");
+/* * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: #FCA3CC;
+    color: #1687A7;
+    text-align: center;
+    font-size: large;
+    margin: 3% 10%;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+.sound {
+    width: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+.donut1,.donut2 {
+     width: 25vw;   
+}
+.donut1 {
+    float: left;
+    animation: rotation 4s infinite linear;
+}
+.donut2 {
+    float: right;
+    animation: rotation2 4s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes rotation2 {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+button {
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: #98ACF8;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+}
+button:hover {
+    background-color: aliceblue;
+}
+.nav {
+    list-style-type: none; 
+}
+.nav li {
+    font-weight: bold;
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+.nav li:hover {
+    font-size: x-large;
+    color: aliceblue;
+}
+.resetButton {
+    background-color:#F05454;
+}
+.information {
+    padding: 0% 10%;
+}

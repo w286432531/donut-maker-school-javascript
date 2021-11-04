@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donut Shop</title>
+    <link rel="shortcut icon" href="../lib/donut1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="../lib/sound.png" alt="sound" class="sound">
+      <div class="greet center"><h1>Welcome to Fred the Baker Baking Company!</h1></div>
+      <nav>
+        <ul class="nav center" >
+          <li class="aboutCompany">About the company</li>
+          <li class="aboutGame">About the game</li>
+          <li class="contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="information">
+    </div>
+    <img src="../lib/donut1.png" alt="donut1" class="donut1">
+    <img src="../lib/donut2.png" alt="donut2" class="donut2">
+    <div class="donut">
+        <h3>Number of Donuts</h3>
+        <p class="showDonutNums"></p>
+        <h4>Donuts per click: <span class="donutsPerClick">1</span></h4>
+        <button class="addDonut">Add Donut</button>
+    </div>
+    <div class="autoClicker">
+        <h3>Number of Auto Clicker</h3>
+        <p class="showAutoClicker">0</p>
+        <h4>Auto Clicker cost : <span class="autoClickerCost">100</span> Donuts</h4>
+        <button class="buyAutoClicker" disabled>Buy Auto Clicker</button>
+    </div>
+    <div class="clickerMultiplier">
+        <h3>Number of Clicker Multiplier</h3>
+        <p class="showClickerMultiplier">0</p>
+        <label for="buyClickerMultiplier"></label>
+        <h4>Clicker Multiplier Cost: <span class="multiplierCost">10</span> Donuts</h4>
+        <button class="buyClickerMultiplier" disabled>Buy Clicker Multiplier</button>
+    </div>
+    <br>
+    <div class="reset">
+      <button class="resetButton">Reset</button>
+    </div>
+    <script src="../src/js/donut.js"></script>
+    <script src="../src/js/app.js"></script>
+  </body>
+</html>
