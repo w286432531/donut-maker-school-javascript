@@ -10,10 +10,10 @@ const donutMultiplierCost = document.querySelector(".multiplierCost");
 const donutsPerClick = document.querySelector(".donutsPerClick");
 const resetButton = document.querySelector(".resetButton");
 const soundButton = document.querySelector(".sound");
-const makeSound = new Audio("../lib/make.wav");
-const shortBonus = new Audio("../lib/shortBonus.wav");
-const longBonus = new Audio("../lib/longBonus.wav");
-const backgroundMusic = new Audio("../lib/background.mp3");
+const makeSound = new Audio("lib/make.wav");
+const shortBonus = new Audio("lib/shortBonus.wav");
+const longBonus = new Audio("lib/longBonus.wav");
+const backgroundMusic = new Audio("lib/background.mp3");
 let musicStatus = false;
 backgroundMusic.addEventListener(
   "ended",
